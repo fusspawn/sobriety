@@ -1,0 +1,16 @@
+Content\Terrain.xnb
+Content\Objects.xnb
+Content\Roads.xnb
+Content\Walls.xnb
+Content\Character.xnb
+Content\characteranimations.xnb
+Content\ogre.xnb
+Content\Malice.xnb
+Content\Natkuma.xnb
+Content\Tree.xnb
+Content\TreeStump.xnb
+Content\Terrain2.xnb
+Content\RockEmpty.xnb
+Content\RockFull.xnb
+Content\RockHalfFull.xnb
+Content\DefaultFont.xnb

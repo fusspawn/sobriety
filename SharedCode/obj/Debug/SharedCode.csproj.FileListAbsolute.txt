@@ -1,0 +1,7 @@
+C:\Users\Fusspawn\Documents\Visual Studio 2010\Projects\TileTest\SharedCode\bin\Debug\SharedCode.dll
+C:\Users\Fusspawn\Documents\Visual Studio 2010\Projects\TileTest\SharedCode\bin\Debug\SharedCode.pdb
+C:\Users\Fusspawn\Documents\Visual Studio 2010\Projects\TileTest\SharedCode\bin\Debug\Microsoft.Xna.Framework.dll
+C:\Users\Fusspawn\Documents\Visual Studio 2010\Projects\TileTest\SharedCode\bin\Debug\Microsoft.Xna.Framework.xml
+C:\Users\Fusspawn\Documents\Visual Studio 2010\Projects\TileTest\SharedCode\obj\Debug\SharedCode.csprojResolveAssemblyReference.cache
+C:\Users\Fusspawn\Documents\Visual Studio 2010\Projects\TileTest\SharedCode\obj\Debug\SharedCode.dll
+C:\Users\Fusspawn\Documents\Visual Studio 2010\Projects\TileTest\SharedCode\obj\Debug\SharedCode.pdb

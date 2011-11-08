@@ -1,0 +1,191 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XnaContent xmlns:Pipeline="Microsoft.Xna.Framework.Content.Pipeline">
+  <Asset Type="Pipeline:BuildItemCollection">
+    <Item>
+      <Source>Terrain.png</Source>
+      <Name>Terrain</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Fusspawn\Documents\Visual Studio 2010\Projects\TileTest\Client\Client\bin\x86\Release\Content\Terrain.xnb</Output>
+      <Time>2011-10-29T20:41:41.026345+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Objects.png</Source>
+      <Name>Objects</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Fusspawn\Documents\Visual Studio 2010\Projects\TileTest\Client\Client\bin\x86\Release\Content\Objects.xnb</Output>
+      <Time>2011-10-28T10:10:24.4585067+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Roads.png</Source>
+      <Name>Roads</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Fusspawn\Documents\Visual Studio 2010\Projects\TileTest\Client\Client\bin\x86\Release\Content\Roads.xnb</Output>
+      <Time>2011-10-28T10:10:24.4605077+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Walls.png</Source>
+      <Name>Walls</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Fusspawn\Documents\Visual Studio 2010\Projects\TileTest\Client\Client\bin\x86\Release\Content\Walls.xnb</Output>
+      <Time>2011-10-28T10:10:24.4625071+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Character.png</Source>
+      <Name>Character</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Fusspawn\Documents\Visual Studio 2010\Projects\TileTest\Client\Client\bin\x86\Release\Content\Character.xnb</Output>
+      <Time>2011-10-28T10:46:36.1339754+01:00</Time>
+    </Item>
+    <Item>
+      <Source>characteranimations.png</Source>
+      <Name>characteranimations</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Fusspawn\Documents\Visual Studio 2010\Projects\TileTest\Client\Client\bin\x86\Release\Content\characteranimations.xnb</Output>
+      <Time>2011-10-29T20:14:46.9811871+01:00</Time>
+    </Item>
+    <Item>
+      <Source>ogre.png</Source>
+      <Name>ogre</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Fusspawn\Documents\Visual Studio 2010\Projects\TileTest\Client\Client\bin\x86\Release\Content\ogre.xnb</Output>
+      <Time>2011-10-29T20:14:46.978188+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Malice.png</Source>
+      <Name>Malice</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Fusspawn\Documents\Visual Studio 2010\Projects\TileTest\Client\Client\bin\x86\Release\Content\Malice.xnb</Output>
+      <Time>2011-11-01T19:06:45.2701511+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Natkuma.png</Source>
+      <Name>Natkuma</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Fusspawn\Documents\Visual Studio 2010\Projects\TileTest\Client\Client\bin\x86\Release\Content\Natkuma.xnb</Output>
+      <Time>2011-11-01T19:06:45.2691503+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Tree.png</Source>
+      <Name>Tree</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Fusspawn\Documents\Visual Studio 2010\Projects\TileTest\Client\Client\bin\x86\Release\Content\Tree.xnb</Output>
+      <Time>2011-11-01T00:37:15.0280453+00:00</Time>
+    </Item>
+    <Item>
+      <Source>TreeStump.png</Source>
+      <Name>TreeStump</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Fusspawn\Documents\Visual Studio 2010\Projects\TileTest\Client\Client\bin\x86\Release\Content\TreeStump.xnb</Output>
+      <Time>2011-11-02T15:54:29.105594+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Terrain2.png</Source>
+      <Name>Terrain2</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Fusspawn\Documents\Visual Studio 2010\Projects\TileTest\Client\Client\bin\x86\Release\Content\Terrain2.xnb</Output>
+      <Time>2011-11-02T16:05:40.2620605+00:00</Time>
+    </Item>
+    <Item>
+      <Source>DefaultFont.spritefont</Source>
+      <Name>DefaultFont</Name>
+      <Importer>FontDescriptionImporter</Importer>
+      <Processor>FontDescriptionProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Fusspawn\Documents\Visual Studio 2010\Projects\TileTest\Client\Client\bin\x86\Release\Content\DefaultFont.xnb</Output>
+      <Time>2011-10-29T21:39:10.6664438+01:00</Time>
+    </Item>
+    <Item>
+      <Source>RockEmpty.png</Source>
+      <Name>RockEmpty</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Fusspawn\Documents\Visual Studio 2010\Projects\TileTest\Client\Client\bin\x86\Release\Content\RockEmpty.xnb</Output>
+      <Time>2011-11-02T22:07:52.8174713+00:00</Time>
+    </Item>
+    <Item>
+      <Source>RockFull.png</Source>
+      <Name>RockFull</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Fusspawn\Documents\Visual Studio 2010\Projects\TileTest\Client\Client\bin\x86\Release\Content\RockFull.xnb</Output>
+      <Time>2011-11-02T22:09:07.4136005+00:00</Time>
+    </Item>
+    <Item>
+      <Source>RockHalfFull.png</Source>
+      <Name>RockHalfFull</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Fusspawn\Documents\Visual Studio 2010\Projects\TileTest\Client\Client\bin\x86\Release\Content\RockHalfFull.xnb</Output>
+      <Time>2011-11-02T22:08:36.2783821+00:00</Time>
+    </Item>
+    <BuildSuccessful>true</BuildSuccessful>
+    <Settings>
+      <ContentProjectGUID>{96267419-4EDA-4AC4-B76C-96EAAC4A0D84}</ContentProjectGUID>
+      <TargetPlatform>Windows</TargetPlatform>
+      <TargetProfile>Reach</TargetProfile>
+      <BuildConfiguration>Release</BuildConfiguration>
+      <CompressContent>true</CompressContent>
+      <RootDirectory>C:\Users\Fusspawn\Documents\Visual Studio 2010\Projects\TileTest\Client\ClientContent\</RootDirectory>
+      <LoggerRootDirectory>C:\Users\Fusspawn\Documents\Visual Studio 2010\Projects\TileTest\Client\Client\</LoggerRootDirectory>
+      <IntermediateDirectory>C:\Users\Fusspawn\Documents\Visual Studio 2010\Projects\TileTest\Client\Client\obj\x86\Release\</IntermediateDirectory>
+      <OutputDirectory>C:\Users\Fusspawn\Documents\Visual Studio 2010\Projects\TileTest\Client\Client\bin\x86\Release\Content\</OutputDirectory>
+    </Settings>
+    <Assemblies>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.XImporter.dll</Key>
+        <Value>2011-09-01T16:22:30+01:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.VideoImporters.dll</Key>
+        <Value>2011-09-01T16:22:30+01:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.TextureImporter.dll</Key>
+        <Value>2011-09-01T16:22:30+01:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.FBXImporter.dll</Key>
+        <Value>2011-09-01T16:22:30+01:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.EffectImporter.dll</Key>
+        <Value>2011-09-01T16:22:30+01:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.AudioImporters.dll</Key>
+        <Value>2011-09-01T16:22:30+01:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Windows\Microsoft.Net\assembly\GAC_32\Microsoft.Xna.Framework.Content.Pipeline\v4.0_4.0.0.0__842cf8be1de50553\Microsoft.Xna.Framework.Content.Pipeline.dll</Key>
+        <Value>2011-10-13T00:58:58.4576406+01:00</Value>
+      </Assembly>
+    </Assemblies>
+  </Asset>
+</XnaContent>

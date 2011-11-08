@@ -1,0 +1,11 @@
+C:\Users\Fusspawn\Documents\Visual Studio 2010\Projects\TileTest\WorldServer\bin\Debug\WorldServer.exe
+C:\Users\Fusspawn\Documents\Visual Studio 2010\Projects\TileTest\WorldServer\bin\Debug\WorldServer.pdb
+C:\Users\Fusspawn\Documents\Visual Studio 2010\Projects\TileTest\WorldServer\bin\Debug\Lidgren.Network.dll
+C:\Users\Fusspawn\Documents\Visual Studio 2010\Projects\TileTest\WorldServer\bin\Debug\Microsoft.CSharp.dll
+C:\Users\Fusspawn\Documents\Visual Studio 2010\Projects\TileTest\WorldServer\bin\Debug\SharedCode.dll
+C:\Users\Fusspawn\Documents\Visual Studio 2010\Projects\TileTest\WorldServer\bin\Debug\Lidgren.Network.pdb
+C:\Users\Fusspawn\Documents\Visual Studio 2010\Projects\TileTest\WorldServer\bin\Debug\Lidgren.Network.xml
+C:\Users\Fusspawn\Documents\Visual Studio 2010\Projects\TileTest\WorldServer\bin\Debug\SharedCode.pdb
+C:\Users\Fusspawn\Documents\Visual Studio 2010\Projects\TileTest\WorldServer\obj\x86\Debug\WorldServer.csprojResolveAssemblyReference.cache
+C:\Users\Fusspawn\Documents\Visual Studio 2010\Projects\TileTest\WorldServer\obj\x86\Debug\WorldServer.exe
+C:\Users\Fusspawn\Documents\Visual Studio 2010\Projects\TileTest\WorldServer\obj\x86\Debug\WorldServer.pdb

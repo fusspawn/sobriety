@@ -1,0 +1,95 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{D720E6D4-37F5-4AA8-9889-5F7DCD44D381}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>WorldServer</RootNamespace>
+    <AssemblyName>WorldServer</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Attributes\Attribute.cs" />
+    <Compile Include="Attributes\AttributeList.cs" />
+    <Compile Include="Attributes\AttributeManager.cs" />
+    <Compile Include="World\Character\CharacterManager.cs" />
+    <Compile Include="World\Data\GameObjects\Rock.cs" />
+    <Compile Include="World\Data\GameObjects\Tree.cs" />
+    <Compile Include="Network\NetworkExtension.cs" />
+    <Compile Include="Network\NetworkManager.cs" />
+    <Compile Include="GameServer.cs" />
+    <Compile Include="Objects\Actor.cs" />
+    <Compile Include="World\Character\PlayerClient.cs" />
+    <Compile Include="World\Data\GameObjects\GameObject.cs" />
+    <Compile Include="Objects\ObjectIDFactory.cs" />
+    <Compile Include="Objects\ObjectManager.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="World\Region\WorldChunk.cs" />
+    <Compile Include="World\Region\ChunkManager.cs" />
+    <Compile Include="Tasks\Scheduler.cs" />
+    <Compile Include="Tasks\Signal.cs" />
+    <Compile Include="Tasks\Task.cs" />
+    <Compile Include="World\Data\Tasks\WorldDataInit.cs" />
+    <Compile Include="Tasks\TaskList.cs" />
+    <Compile Include="Units\MathHelper.cs" />
+    <Compile Include="Units\Rectangle.cs" />
+    <Compile Include="Units\Vector2.cs" />
+    <Compile Include="Units\Vector3.cs" />
+    <Compile Include="World\TerrainManager.cs" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="..\Lidgren.Network\Lidgren.Network.csproj">
+      <Project>{AE483C29-042E-4226-BA52-D247CE7676DA}</Project>
+      <Name>Lidgren.Network</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SharedCode\SharedCode.csproj">
+      <Project>{E65F1EF7-EF28-4762-8685-1E327DC38B8E}</Project>
+      <Name>SharedCode</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,10 @@
+C:\Users\Fusspawn\Documents\Visual Studio 2010\Projects\TileTest\Lidgren XNA Extensions\Lidgren XNA Extensions\bin\Debug\Lidgren.Network.Xna.dll
+C:\Users\Fusspawn\Documents\Visual Studio 2010\Projects\TileTest\Lidgren XNA Extensions\Lidgren XNA Extensions\bin\Debug\Lidgren.Network.Xna.pdb
+C:\Users\Fusspawn\Documents\Visual Studio 2010\Projects\TileTest\Lidgren XNA Extensions\Lidgren XNA Extensions\bin\Debug\Lidgren.Network.dll
+C:\Users\Fusspawn\Documents\Visual Studio 2010\Projects\TileTest\Lidgren XNA Extensions\Lidgren XNA Extensions\bin\Debug\Microsoft.Xna.Framework.dll
+C:\Users\Fusspawn\Documents\Visual Studio 2010\Projects\TileTest\Lidgren XNA Extensions\Lidgren XNA Extensions\bin\Debug\Lidgren.Network.pdb
+C:\Users\Fusspawn\Documents\Visual Studio 2010\Projects\TileTest\Lidgren XNA Extensions\Lidgren XNA Extensions\bin\Debug\Lidgren.Network.xml
+C:\Users\Fusspawn\Documents\Visual Studio 2010\Projects\TileTest\Lidgren XNA Extensions\Lidgren XNA Extensions\bin\Debug\Microsoft.Xna.Framework.xml
+C:\Users\Fusspawn\Documents\Visual Studio 2010\Projects\TileTest\Lidgren XNA Extensions\Lidgren XNA Extensions\obj\Debug\Lidgren XNA Extensions.csprojResolveAssemblyReference.cache
+C:\Users\Fusspawn\Documents\Visual Studio 2010\Projects\TileTest\Lidgren XNA Extensions\Lidgren XNA Extensions\obj\Debug\Lidgren.Network.Xna.dll
+C:\Users\Fusspawn\Documents\Visual Studio 2010\Projects\TileTest\Lidgren XNA Extensions\Lidgren XNA Extensions\obj\Debug\Lidgren.Network.Xna.pdb

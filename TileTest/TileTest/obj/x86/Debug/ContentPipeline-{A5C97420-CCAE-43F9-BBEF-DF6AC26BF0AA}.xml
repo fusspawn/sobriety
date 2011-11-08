@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XnaContent xmlns:Pipeline="Microsoft.Xna.Framework.Content.Pipeline">
+  <Asset Type="Pipeline:BuildItemCollection">
+    <BuildSuccessful>true</BuildSuccessful>
+    <Settings>
+      <ContentProjectGUID>{A5C97420-CCAE-43F9-BBEF-DF6AC26BF0AA}</ContentProjectGUID>
+      <TargetPlatform>Windows</TargetPlatform>
+      <TargetProfile>Reach</TargetProfile>
+      <BuildConfiguration>Debug</BuildConfiguration>
+      <CompressContent>false</CompressContent>
+      <RootDirectory>c:\users\fusspawn\documents\visual studio 2010\Projects\TileTest\TileTest\TileTestContent\</RootDirectory>
+      <LoggerRootDirectory>c:\users\fusspawn\documents\visual studio 2010\Projects\TileTest\TileTest\TileTest\</LoggerRootDirectory>
+      <IntermediateDirectory>c:\users\fusspawn\documents\visual studio 2010\Projects\TileTest\TileTest\TileTest\obj\x86\Debug\</IntermediateDirectory>
+      <OutputDirectory>c:\users\fusspawn\documents\visual studio 2010\Projects\TileTest\TileTest\TileTest\bin\x86\Debug\Content\</OutputDirectory>
+    </Settings>
+    <Assemblies>
+      <Assembly>
+        <Key>C:\Windows\Microsoft.Net\assembly\GAC_32\Microsoft.Xna.Framework.Content.Pipeline\v4.0_4.0.0.0__842cf8be1de50553\Microsoft.Xna.Framework.Content.Pipeline.dll</Key>
+        <Value>2011-10-13T00:58:58.4576406+01:00</Value>
+      </Assembly>
+    </Assemblies>
+  </Asset>
+</XnaContent>

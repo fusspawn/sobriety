@@ -1,0 +1,6 @@
+C:\Users\Fusspawn\Documents\Visual Studio 2010\Projects\TileTest\Lidgren.Network\bin\Debug\Lidgren.Network.dll
+C:\Users\Fusspawn\Documents\Visual Studio 2010\Projects\TileTest\Lidgren.Network\bin\Debug\Lidgren.Network.pdb
+C:\Users\Fusspawn\Documents\Visual Studio 2010\Projects\TileTest\Lidgren.Network\obj\Debug\Lidgren.Network.csprojResolveAssemblyReference.cache
+C:\Users\Fusspawn\Documents\Visual Studio 2010\Projects\TileTest\Lidgren.Network\obj\Debug\Lidgren.Network.dll
+C:\Users\Fusspawn\Documents\Visual Studio 2010\Projects\TileTest\Lidgren.Network\obj\Debug\Lidgren.Network.pdb
+C:\Users\Fusspawn\Documents\Visual Studio 2010\Projects\TileTest\Lidgren.Network\bin\Debug\Lidgren.Network.XML

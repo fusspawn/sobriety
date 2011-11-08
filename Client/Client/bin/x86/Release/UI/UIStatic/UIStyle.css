@@ -1,0 +1,19 @@
+﻿body
+{
+    background-color: transparent;
+}
+
+#chatcontainer 
+{
+    color: white;
+    background-color:black; 
+    border:1px solid white; 
+    position: absolute; 
+    bottom: 5px; 
+    left: 5px;
+    opacity:0.6;
+}   
+
+#UI_CHAT_MESSAGES li {
+    width: 213px;         
+}

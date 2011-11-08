@@ -1,0 +1,6 @@
+c:\users\fusspawn\documents\visual studio 2010\Projects\TileTest\TileTest\TileTest\obj\x86\Debug\TileTest.csprojResolveAssemblyReference.cache
+c:\users\fusspawn\documents\visual studio 2010\Projects\TileTest\TileTest\TileTest\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+c:\users\fusspawn\documents\visual studio 2010\Projects\TileTest\TileTest\TileTest\bin\x86\Debug\TileTest.exe
+c:\users\fusspawn\documents\visual studio 2010\Projects\TileTest\TileTest\TileTest\bin\x86\Debug\TileTest.pdb
+c:\users\fusspawn\documents\visual studio 2010\Projects\TileTest\TileTest\TileTest\obj\x86\Debug\TileTest.exe
+c:\users\fusspawn\documents\visual studio 2010\Projects\TileTest\TileTest\TileTest\obj\x86\Debug\TileTest.pdb
