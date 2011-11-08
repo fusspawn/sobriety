@@ -25,9 +25,8 @@ namespace WorldServer.Tasks.TaskImplimentations
             Message.Write((byte)MessageTypes.ConnectionOkay);
             Connection.SendMessage(Message, NetDeliveryMethod.ReliableUnordered, 0);
 
-
             NetOutgoingMessage NameRequest = NetworkManager.Server.CreateMessage();
-            Message.Write((byte)MessageTypes.RequestPlayerName);
+            NameRequest.Write((byte)MessageTypes.RequestPlayerName);
             Connection.SendMessage(NameRequest, NetDeliveryMethod.ReliableUnordered, 0);
         }
 

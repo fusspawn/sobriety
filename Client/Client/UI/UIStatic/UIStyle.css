@@ -1,19 +1,29 @@
-﻿body
-{
-    background-color: transparent;
-}
+﻿
+ body {
+        background-color: transparent;
+ }
 
-#chatcontainer 
-{
-    color: white;
-    background-color:black; 
-    border:1px solid white; 
-    position: absolute; 
-    bottom: 5px; 
-    left: 5px;
-    opacity:0.6;
+ #UI_CHAT_CONTAINER   {
+                color: white;
+                background-color:black; 
+                border:1px solid white; 
+                position: absolute; 
+                bottom: 5px; 
+                left: 5px;
+                opacity:0.6;
 }   
 
-#UI_CHAT_MESSAGES li {
-    width: 213px;         
+#UI_CHAT_MESSAGES {
+                margin: 0;
+                padding: 0;                          
 }
+
+#UI_CHAT_MESSAGES li {
+                width: 213px;      
+}
+            
+
+ul, li {
+                list-style-type: none;
+}           
+
