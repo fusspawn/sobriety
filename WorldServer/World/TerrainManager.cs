@@ -33,8 +33,8 @@ namespace WorldServer.World
             Random R = new Random();
             var TileCol = new Vector3(0, R.Next(0, 255), 0);
                     
-            for (int y = 0; y < 1500; y++) {
-                for (int x = 0; x < 1500; x++) {
+            for (int y = 0; y < 750; y++) {
+                for (int x = 0; x < 750; x++) {
                     var T = new TerrainTile() { 
                         X = x,
                         Y = y,
@@ -54,11 +54,11 @@ namespace WorldServer.World
 
             for (int i = 0; i < 1000; i++)
             {
-                Tree.Spawn(new Vector2(R.Next(0, 40 * 1500), R.Next(0, 40 * 1500)));
+                Tree.Spawn(new Vector2(R.Next(0, 40 * 1500), R.Next(0, 40 * 750)));
             }
             for (int r = 0; r < 500; r++) 
             { 
-                Rock.Spawn(new Vector2(R.Next(0, 40 * 1500), R.Next(0, 40 * 1500)));
+                Rock.Spawn(new Vector2(R.Next(0, 40 * 1500), R.Next(0, 40 * 750)));
             }
         }
 

@@ -16,7 +16,7 @@ namespace WorldServer.Tasks.TaskImplimentations
 {
     public class WorldDataSync
     {
-        Vector2 PlayerSpawnPoint = new Vector2(750 * 40, 750 * 40);
+        Vector2 PlayerSpawnPoint = new Vector2((375 * 40) + 1, 375 * 40);
         NetConnection Connect;
         public WorldDataSync(NetConnection Connection) {
             Connect = Connection;

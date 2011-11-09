@@ -39,7 +39,7 @@ namespace WorldServer.Objects
 
         public PlayerClient(NetConnection Connection)
             : base() {
-                Location = new Vector2(500 * 40, 500 * 40);
+                Location = new Vector2((375 * 40) + 1, (375 * 40) + 1);
                 ClientConnection = Connection;
                 Sex = LastSex;
         }

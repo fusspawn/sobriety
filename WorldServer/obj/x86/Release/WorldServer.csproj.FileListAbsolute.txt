@@ -1,3 +1,5 @@
+C:\Users\Fusspawn\Documents\Visual Studio 2010\Projects\TileTest\WorldServer\obj\x86\Release\WorldServer.csprojResolveAssemblyReference.cache
+C:\Users\Fusspawn\Documents\Visual Studio 2010\Projects\TileTest\WorldServer\bin\Release\WorldServer.exe.config
 C:\Users\Fusspawn\Documents\Visual Studio 2010\Projects\TileTest\WorldServer\bin\Release\WorldServer.exe
 C:\Users\Fusspawn\Documents\Visual Studio 2010\Projects\TileTest\WorldServer\bin\Release\WorldServer.pdb
 C:\Users\Fusspawn\Documents\Visual Studio 2010\Projects\TileTest\WorldServer\bin\Release\Lidgren.Network.dll
@@ -6,6 +8,5 @@ C:\Users\Fusspawn\Documents\Visual Studio 2010\Projects\TileTest\WorldServer\bin
 C:\Users\Fusspawn\Documents\Visual Studio 2010\Projects\TileTest\WorldServer\bin\Release\Lidgren.Network.pdb
 C:\Users\Fusspawn\Documents\Visual Studio 2010\Projects\TileTest\WorldServer\bin\Release\Lidgren.Network.xml
 C:\Users\Fusspawn\Documents\Visual Studio 2010\Projects\TileTest\WorldServer\bin\Release\SharedCode.pdb
-C:\Users\Fusspawn\Documents\Visual Studio 2010\Projects\TileTest\WorldServer\obj\x86\Release\WorldServer.csprojResolveAssemblyReference.cache
 C:\Users\Fusspawn\Documents\Visual Studio 2010\Projects\TileTest\WorldServer\obj\x86\Release\WorldServer.exe
 C:\Users\Fusspawn\Documents\Visual Studio 2010\Projects\TileTest\WorldServer\obj\x86\Release\WorldServer.pdb

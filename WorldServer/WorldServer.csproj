@@ -11,7 +11,8 @@
     <RootNamespace>WorldServer</RootNamespace>
     <AssemblyName>WorldServer</AssemblyName>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
-    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
@@ -48,6 +49,8 @@
     <Compile Include="Attributes\Attribute.cs" />
     <Compile Include="Attributes\AttributeList.cs" />
     <Compile Include="Attributes\AttributeManager.cs" />
+    <Compile Include="Database\DatabaseManager.cs" />
+    <Compile Include="Utils\Procedural\PerlinNoise2D.cs" />
     <Compile Include="World\Character\CharacterManager.cs" />
     <Compile Include="World\Data\GameObjects\Rock.cs" />
     <Compile Include="World\Data\GameObjects\Tree.cs" />
@@ -73,7 +76,10 @@
     <Compile Include="Units\Vector3.cs" />
     <Compile Include="World\TerrainManager.cs" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Content Include="Newtonsoft.Json.dll" />
+    <Content Include="RedBranch.Hammock.dll" />
+  </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Lidgren.Network\Lidgren.Network.csproj">
       <Project>{AE483C29-042E-4226-BA52-D247CE7676DA}</Project>
@@ -83,6 +89,9 @@
       <Project>{E65F1EF7-EF28-4762-8685-1E327DC38B8E}</Project>
       <Name>SharedCode</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
