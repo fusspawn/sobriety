@@ -77,13 +77,13 @@
     <Compile Include="World\TerrainManager.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Newtonsoft.Json.dll" />
-    <Content Include="RedBranch.Hammock.dll" />
-  </ItemGroup>
-  <ItemGroup>
     <ProjectReference Include="..\Lidgren.Network\Lidgren.Network.csproj">
       <Project>{AE483C29-042E-4226-BA52-D247CE7676DA}</Project>
       <Name>Lidgren.Network</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\LoveSeat\LoveSeat\LoveSeat.csproj">
+      <Project>{AF987164-0100-4A90-A767-D473F882EA8B}</Project>
+      <Name>LoveSeat</Name>
     </ProjectReference>
     <ProjectReference Include="..\SharedCode\SharedCode.csproj">
       <Project>{E65F1EF7-EF28-4762-8685-1E327DC38B8E}</Project>

@@ -17,13 +17,18 @@ namespace WorldServer
         public static Tasks.Scheduler TaskScheduler;
         public static bool KeepServerRunning = true;
 
-        static void Main(string[] args)
-        {
+        public static void Init() {
             Console.WriteLine("Starting GameServer Services");
             NetworkManager = new Network.NetworkManager(9000, "GameServer01");
             TaskScheduler = new Tasks.Scheduler();
             TerrainManager = new World.TerrainManager();
             Console.WriteLine("Services Started");
+        } 
+
+
+        static void Main(string[] args)
+        {
+            GameServer.Init();  
 
             while (KeepServerRunning) {
                 NetworkManager.PumpMessages();
