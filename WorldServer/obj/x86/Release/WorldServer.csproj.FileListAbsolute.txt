@@ -10,3 +10,11 @@ C:\Users\Fusspawn\Documents\Visual Studio 2010\Projects\TileTest\WorldServer\bin
 C:\Users\Fusspawn\Documents\Visual Studio 2010\Projects\TileTest\WorldServer\bin\Release\SharedCode.pdb
 C:\Users\Fusspawn\Documents\Visual Studio 2010\Projects\TileTest\WorldServer\obj\x86\Release\WorldServer.exe
 C:\Users\Fusspawn\Documents\Visual Studio 2010\Projects\TileTest\WorldServer\obj\x86\Release\WorldServer.pdb
+C:\Users\Fusspawn\Documents\Visual Studio 2010\Projects\TileTest\WorldServer\bin\Release\AwesomiumSharp.dll
+C:\Users\Fusspawn\Documents\Visual Studio 2010\Projects\TileTest\WorldServer\bin\Release\MongoDB.dll
+C:\Users\Fusspawn\Documents\Visual Studio 2010\Projects\TileTest\WorldServer\bin\Release\MongoDB.GridFS.dll
+C:\Users\Fusspawn\Documents\Visual Studio 2010\Projects\TileTest\WorldServer\bin\Release\AwesomiumSharp.pdb
+C:\Users\Fusspawn\Documents\Visual Studio 2010\Projects\TileTest\WorldServer\bin\Release\AwesomiumSharp.xml
+C:\Users\Fusspawn\Documents\Visual Studio 2010\Projects\TileTest\WorldServer\bin\Release\MongoDB.GridFS.xml
+C:\Users\Fusspawn\Documents\Visual Studio 2010\Projects\TileTest\WorldServer\bin\Release\MongoDB.xml
+C:\Users\Fusspawn\Documents\Visual Studio 2010\Projects\TileTest\WorldServer\bin\Release\el-GR\AwesomiumSharp.resources.dll

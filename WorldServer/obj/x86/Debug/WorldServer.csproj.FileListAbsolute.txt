@@ -9,3 +9,14 @@ C:\Users\Fusspawn\Documents\Visual Studio 2010\Projects\TileTest\WorldServer\bin
 C:\Users\Fusspawn\Documents\Visual Studio 2010\Projects\TileTest\WorldServer\obj\x86\Debug\WorldServer.csprojResolveAssemblyReference.cache
 C:\Users\Fusspawn\Documents\Visual Studio 2010\Projects\TileTest\WorldServer\obj\x86\Debug\WorldServer.exe
 C:\Users\Fusspawn\Documents\Visual Studio 2010\Projects\TileTest\WorldServer\obj\x86\Debug\WorldServer.pdb
+C:\Users\Fusspawn\Documents\Visual Studio 2010\Projects\TileTest\WorldServer\bin\Debug\WorldServer.exe.config
+C:\Users\Fusspawn\Documents\Visual Studio 2010\Projects\TileTest\WorldServer\bin\Debug\AwesomiumSharp.dll
+C:\Users\Fusspawn\Documents\Visual Studio 2010\Projects\TileTest\WorldServer\bin\Debug\MongoDB.dll
+C:\Users\Fusspawn\Documents\Visual Studio 2010\Projects\TileTest\WorldServer\bin\Debug\MongoDB.GridFS.dll
+C:\Users\Fusspawn\Documents\Visual Studio 2010\Projects\TileTest\WorldServer\bin\Debug\AwesomiumSharp.pdb
+C:\Users\Fusspawn\Documents\Visual Studio 2010\Projects\TileTest\WorldServer\bin\Debug\AwesomiumSharp.xml
+C:\Users\Fusspawn\Documents\Visual Studio 2010\Projects\TileTest\WorldServer\bin\Debug\MongoDB.GridFS.pdb
+C:\Users\Fusspawn\Documents\Visual Studio 2010\Projects\TileTest\WorldServer\bin\Debug\MongoDB.GridFS.xml
+C:\Users\Fusspawn\Documents\Visual Studio 2010\Projects\TileTest\WorldServer\bin\Debug\MongoDB.pdb
+C:\Users\Fusspawn\Documents\Visual Studio 2010\Projects\TileTest\WorldServer\bin\Debug\MongoDB.xml
+C:\Users\Fusspawn\Documents\Visual Studio 2010\Projects\TileTest\WorldServer\bin\Debug\el-GR\AwesomiumSharp.resources.dll

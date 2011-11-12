@@ -13,6 +13,7 @@ using WorldServer.Objects;
 using WorldServer.Attributes;
 using WorldServer.Region;
 using WorldServer.Character;
+using WorldServer.Database;
 
 namespace WorldServer.World
 {
@@ -32,25 +33,8 @@ namespace WorldServer.World
         {
             Random R = new Random();
             var TileCol = new Vector3(0, R.Next(0, 255), 0);
-                    
-            for (int y = 0; y < 750; y++) {
-                for (int x = 0; x < 750; x++) {
-                    var T = new TerrainTile() { 
-                        X = x,
-                        Y = y,
-                        TileID = 0,
-                        Passable = true,
-                    };
+            var TerrainCollection = DatabaseManager.GetCollection("test", "world_terrain");
 
-                    if (R.Next(0, 100) > 90)
-                        T.TileID = 1;
-
-                    Terrain.Add(T);
-
-                    WorldChunk Chunk = ChunkManager.GetChunk(new Vector2(T.X * 40, T.Y * 40));
-                    Chunk.Insert(T);
-                }
-            }
 
             for (int i = 0; i < 1000; i++)
             {
@@ -62,6 +46,24 @@ namespace WorldServer.World
             }
         }
 
+
+        public static MongoDB.Document TileToDocument(TerrainTile Tile) {
+            var Doc = new MongoDB.Document();
+            Doc["x"] = Tile.X;
+            Doc["y"] = Tile.Y;
+            Doc["tile_type"] = (int)Tile.TileID;
+            return Doc;
+        }
+
+        public static TerrainTile TileFromDocument(MongoDB.Document Doc) {
+            return new TerrainTile()
+            {
+                X = (int)Doc["x"],
+                Y = (int)Doc["y"],
+                TileID = (byte)(int)Doc["tile_type"],
+                Passable = true,
+            };
+        }
 
         public List<TerrainTile> TilesWithinDistance(Vector2 Loc, int Distance) {
             var TileList = new List<TerrainTile>();
@@ -110,6 +112,7 @@ namespace WorldServer.World
 
                 NetOutgoingMessage Message = NetworkManager.Server.CreateMessage();
                 Message.Write((byte)MessageTypes.IncomingMapData);
+
                 var Ter = C.GroundTiles;
                 Message.Write(Ter.Count);
 

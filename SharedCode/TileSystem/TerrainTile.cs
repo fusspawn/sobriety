@@ -12,5 +12,6 @@ namespace SharedCode.TileSystem
         public int Y;
         public byte TileID;
         public bool Passable;
+
     }
 }

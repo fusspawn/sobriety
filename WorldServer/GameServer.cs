@@ -19,6 +19,7 @@ namespace WorldServer
 
         public static void Init() {
             Console.WriteLine("Starting GameServer Services");
+            DatabaseManager.Init();
             NetworkManager = new Network.NetworkManager(9000, "GameServer01");
             TaskScheduler = new Tasks.Scheduler();
             TerrainManager = new World.TerrainManager();

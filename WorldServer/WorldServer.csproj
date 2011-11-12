@@ -77,13 +77,21 @@
     <Compile Include="World\TerrainManager.cs" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\..\..\..\..\Desktop\awesomium_v1.6.2_sdk_win\wrappers\AwesomiumSharp\AwesomiumSharp\AwesomiumSharp.csproj">
+      <Project>{1614289C-5F21-4934-9143-A47755D7C0A6}</Project>
+      <Name>AwesomiumSharp</Name>
+    </ProjectReference>
     <ProjectReference Include="..\Lidgren.Network\Lidgren.Network.csproj">
       <Project>{AE483C29-042E-4226-BA52-D247CE7676DA}</Project>
       <Name>Lidgren.Network</Name>
     </ProjectReference>
-    <ProjectReference Include="..\LoveSeat\LoveSeat\LoveSeat.csproj">
-      <Project>{AF987164-0100-4A90-A767-D473F882EA8B}</Project>
-      <Name>LoveSeat</Name>
+    <ProjectReference Include="..\MongoDB\source\MongoDB.GridFS\MongoDB.GridFS.csproj">
+      <Project>{B42DBBF9-0A1F-4749-9787-013BF8D8F435}</Project>
+      <Name>MongoDB.GridFS</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\MongoDB\source\MongoDB\MongoDB.csproj">
+      <Project>{B125BBA6-BFFD-44FA-9254-9B1754CD8AF3}</Project>
+      <Name>MongoDB</Name>
     </ProjectReference>
     <ProjectReference Include="..\SharedCode\SharedCode.csproj">
       <Project>{E65F1EF7-EF28-4762-8685-1E327DC38B8E}</Project>

@@ -1,5 +1,5 @@
-//#define LOCALHOST
-#define EC2
+#define LOCALHOST
+//#define EC2
 using System;
 using System.Collections.Generic;
 using System.Linq;
